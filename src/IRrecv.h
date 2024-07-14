@@ -14,8 +14,6 @@
 #include <stdint.h>
 #include "IRremoteESP8266.h"
 
-#define DECODE_GREE true
-
 // Constants
 const uint16_t kHeader = 2;        // Usual nr. of header entries.
 const uint16_t kFooter = 2;        // Usual nr. of footer (stop bits) entries.
