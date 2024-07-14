@@ -365,7 +365,8 @@
 #endif  // SEND_GOODWEATHER
 
 #ifndef DECODE_GREE
-#define DECODE_GREE            _IR_ENABLE_DEFAULT_
+//#define DECODE_GREE            _IR_ENABLE_DEFAULT_
+#define DECODE_GREE            true
 #endif  // DECODE_GREE
 #ifndef SEND_GREE
 #define SEND_GREE              _IR_ENABLE_DEFAULT_
